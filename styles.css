@@ -1,0 +1,54 @@
+.mini {
+    max-height: 100px;
+
+}
+
+.normal {
+    max-height: 500px;
+    border: 8px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul {
+    background: black;
+    float: left;
+    width: fit-content;
+    list-style: none;
+}
+
+ul li {
+    height: 100px;
+}
+
+ul li img {
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+ul li a:hover img {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+#images {
+    width: fit-content;
+    height: 500px;
+
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#tabs {
+    position: fixed;
+}
+
+#wrapper {
+    padding-top: 30px;
+}
